@@ -1,3 +1,1 @@
-##Home Screen
-
-![Home!](screenshots\home.PNG)
+![Home!](screenshots/home.PNG)
