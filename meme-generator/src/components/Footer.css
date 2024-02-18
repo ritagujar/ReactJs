@@ -1,0 +1,15 @@
+.footer {
+  bottom: 0;
+  position: fixed;
+  background-color: purple;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer small {
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.75px;
+}
