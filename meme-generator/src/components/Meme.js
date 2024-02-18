@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import useGenerateRandomMemes from "../hooks/useGenerateRandomMemes";
+import "./Meme.css";
 
 const Meme = () => {
   const randomMeme = useGenerateRandomMemes();
@@ -35,7 +36,7 @@ const Meme = () => {
       <form action="" className="form">
         <input
           type="text"
-          className="top-text"
+          className="form-input"
           value={memeData.topText}
           name="topText"
           placeholder="Top Text"
@@ -43,7 +44,7 @@ const Meme = () => {
         />
         <input
           type="text"
-          className="bottom-text"
+          className="form-input"
           value={memeData.bottomText}
           name="bottomText"
           placeholder="Bottom Text"
