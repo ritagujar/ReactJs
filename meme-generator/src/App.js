@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Meme from "./components/Meme";
 
 const App = () => {
   return (
     <div>
-      <h1>Meme Generator</h1>
+      <Header />
+      <Meme />
+      <Footer />
     </div>
   );
 };

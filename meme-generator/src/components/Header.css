@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  gap: 0.8rem;
+}
+
+.meme-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1.5rem;
+}
+
+.header-heading {
+  color: white;
+  letter-spacing: 0.75px;
+}
