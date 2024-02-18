@@ -20,9 +20,6 @@ const Meme = () => {
     }));
   }
 
-  // console.log(memeData.topText);
-  // console.log(memeData.bottomText);
-
   function getRandommemeData(e) {
     e.preventDefault();
     setMemeData((prevMeme) => ({
