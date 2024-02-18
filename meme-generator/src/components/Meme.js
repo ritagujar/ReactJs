@@ -49,9 +49,15 @@ const Meme = () => {
           placeholder="Bottom Text"
           onChange={handleInputChange}
         />
-        <button onClick={getRandommemeData}>Generate a meme</button>
+        <button className="form-btn" onClick={getRandommemeData}>
+          Generate a meme
+        </button>
       </form>
-      {/* <img src={memeData.randomImageUrl} alt="Meme" /> */}
+      <div className="meme-container">
+        <img className="meme-img" src={memeData.randomImageUrl} alt="Meme" />
+        <h4 className="meme-top-text">{memeData.topText}</h4>
+        <h4 className="meme-bottom-text">{memeData.bottomText}</h4>
+      </div>
     </main>
   );
 };
